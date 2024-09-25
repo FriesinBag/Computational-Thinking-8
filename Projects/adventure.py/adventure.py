@@ -29,7 +29,7 @@ else:
 c4 = input("do you run into a [random room] or [fight janitor]?")
 if "random room" in c4:
     print("you run in the room and close the door just in time and turn on the light")
-    c6 = input("you turn the light on and see two doors")
+    c6 = input("you see two doors")
 else:
     print("you lunge at the janitor and he picks you up and throws you out the window!")
     c7 = input("game over")
@@ -50,7 +50,7 @@ if "cracked window" in c9:
     c10 = input("you've yet again entered a fight with the janitor")
 else:
     print("you jump on a car and you hightail outta there")
-    print("you escaped!")
+    c15 = input("you escaped!")
 
 # choice 10
 c10 = input("do you [run] or [fight]")
