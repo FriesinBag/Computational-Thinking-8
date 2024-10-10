@@ -4,7 +4,7 @@ print("since you are always hungry you enter looking for food")
 print("But you find that the door is locked and you need to find a key")
 
 # choice 1
-c1 = input("Do you choose do look in the [dumpster] or enter the [floor mat]")
+c1 = input("Do you choose do look in the [dumpster] or under the [floor mat]")
 if "floor" in c1:
     print("You look under the floor mat and... you find the Key!")
     c2 = input("you open the door and head inside")
@@ -59,7 +59,7 @@ if "fight" in c10:
     c11 = input("You don't know what the key leads to")
 else:
     print("you run into the bushes and find another sandwich ")
-    c12 = input("Do you eat or keep running")
+    c12 = input("What do you do?")
 
 # choice 11
 c11 = input("Do you go through the [pantry] or the [front door]?")
